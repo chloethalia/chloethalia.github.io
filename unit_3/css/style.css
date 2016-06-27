@@ -1,0 +1,27 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	padding: 30px;
+	margin: 50px;
+	color:#C09A77;
+	background: url("http://confectionsofacottonpickinqueen.com/wp-content/uploads/2014/06/Dollarphotoclub_540377071.jpg");
+	background-size: cover;
+}
+header{
+	text-align: center;
+}
+h3{
+	font-weight: normal;
+}
+a{
+	color: #C06C91;
+	font-weight: bold;
+}
+#title{
+	color: #C06C91;
+}
+#slogan{
+	font-style: italic;
+}
