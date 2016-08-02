@@ -18,8 +18,8 @@ nav{
 }
 
 #logo, footer{
-	padding: 20px;
-	margin: 20px;
+	padding: 2em;
+	margin: 1em;
 }
 
 header,footer,nav{
@@ -68,8 +68,8 @@ a{
 }
 
 nav a{
-	margin-left: 80px;
-	margin-right: 80px;
+	margin-left: 5%;
+	margin-right: 5%;
 	color: white;
 }
 
@@ -81,7 +81,16 @@ a:hover {
 	color: #C09A77;
 }
 
-@media screen and (max-width: 500px){
-	#address{
-	display: block;}
+@media screen and (max-width: 768px){
+	nav a {
+	display: block;
+	text-align: center;
+	margin:0;
+	padding: 2%;
+	font-weight: bold;
+	}
+	nav a:hover{
+	background-color: #C09A77;
+	}
 }
+
