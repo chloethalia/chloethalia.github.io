@@ -17,6 +17,10 @@ nav{
 	background-color: #C06C91;
 }
 
+#mobile{
+	display: none;
+}
+
 #logo, footer{
 	padding: 2em;
 	margin: 1em;
@@ -31,12 +35,12 @@ h1{
 	text-decoration: none;
 }
 
-#verticalcenter{
+.verticalcenter{
 opacity: 0;
 font-size: 5em;
 }
 
-article, aside{
+#June,article,aside{
 	font-size: 1.5em;
 	padding: 1%;
 	width: 50%; 
@@ -46,7 +50,9 @@ article, aside{
 	opacity: .8;
 	margin:auto;
 }
-
+#June,aside{
+	display: none;
+}
 h3{
 	font-weight: normal;
 }
@@ -91,6 +97,28 @@ a:hover {
 	}
 	nav a:hover{
 	background-color: #C09A77;
+	color: white;
+	}
+	article{
+		display:none;
+	}
+	#June,aside{
+		display: block;
+		padding: 5%;
+		line-height: 125%;
+	}
+	section{
+	background: url("http://confectionsofacottonpickinqueen.com/wp-content/uploads/2014/06/Dollarphotoclub_540377071.jpg") no-repeat center top;
+	height: 70em;
+	}
+	#verticalcenter{
+		font-size:3em;
+	}
+	#mobile{
+		display: block;
+	}
+	#desktop{
+		display: none;
 	}
 }
 
