@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Quattrocento);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300);
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	color:#C09A77;
+}
+
+nav{
+	padding: .75%;
+	background-color: #cc0052;
+}
+
+a, footer{
+	color: #cc0052;
+	text-decoration: none;
+}
+
+#mobile{
+	display: none;
+}
+
+#logo, footer{
+	padding: 2em;
+	margin: 1em;
+}
+
+header,footer,nav{
+	font-family: 'Quattrocento', serif;
+	text-align: center;
+}
+
+article{
+	text-indent: 50px;
+	min-width: 250px;
+	font-size: 1.5em;
+	padding: 4%;
+	width: 75%; 
+	background-color: white;
+	opacity: .8;
+	margin:auto;
+	line-height: 175%;
+}
+
+h3{
+	font-weight: normal;
+}
+
+section{
+	background: url("http://confectionsofacottonpickinqueen.com/wp-content/uploads/2014/06/Dollarphotoclub_540377071.jpg");
+	background-size: cover;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+
+nav a{
+	font-size: 1.25em;
+	margin-left: 6%;
+	margin-right: 6%;
+	color: white;
+}
+
+#slogan{
+	font-style: italic;
+}
+
+a:hover {
+	color: #C09A77;
+}
+
+@media screen and (max-width: 768px){
+	nav a {
+	display: block;
+	text-align: center;
+	margin:0;
+	padding: 2%;
+	font-weight: bold;
+	}
+	nav a:hover{
+	background-color: #C09A77;
+	color: white;
+	}
+	section{
+	background: url("http://confectionsofacottonpickinqueen.com/wp-content/uploads/2014/06/Dollarphotoclub_540377071.jpg") no-repeat center top;
+	height: auto;
+	}
+	#verticalcenter{
+		font-size:3em;
+	}
+	#mobile{
+		display: block;
+	}
+	#desktop{
+		display: none;
+	}
+}
+@media screen and (min-width: 769px) and (max-width: 1043px){
+	nav a {
+	margin-left: 3.5%;
+	margin-right: 3.5%;
+	}
+}
