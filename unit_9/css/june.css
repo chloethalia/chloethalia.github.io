@@ -35,14 +35,14 @@ header,footer,nav{
 }
 
 article{
-	min-width: 250px;
+	max-width: 400px;
 	font-size: 2em;
 	padding: 4%;
 	width: 75%; 
+	text-align: center;
 	background-color: white;
 	background: rgba(255, 255, 255, 0.8);
 	margin:auto;
-	text-align: center;
 	line-height: 175%;
 }
 
@@ -53,9 +53,10 @@ ul{
 section{
 	background: url("http://confectionsofacottonpickinqueen.com/wp-content/uploads/2014/06/Dollarphotoclub_540377071.jpg");
 	background-size: cover;
-	padding: 10% 0;
+	padding: 5% 0;
 	font-family: 'Josefin Sans', sans-serif;
 }
+
 
 nav a{
 	font-size: 1.25em;
@@ -69,26 +70,9 @@ a:hover {
 }
 
 @media screen and (max-width: 768px){
-	nav a {
-	display: block;
-	text-align: center;
-	margin: 0;
-	padding: 2%;
-	font-weight: bold;
-	}
-	nav a:hover{
-	background-color: #C09A77;
-	color: white;
-	}
-	section{
-	background: url("http://confectionsofacottonpickinqueen.com/wp-content/uploads/2014/06/Dollarphotoclub_540377071.jpg") no-repeat center top;
-	}
-	}
-	#mobile{
-		display: block;
-	}
-	#desktop{
-		display: none;
+nav a {
+	margin-left: 1.5%;
+	margin-right: 1.5%;
 	}
 }
 @media screen and (min-width: 769px) and (max-width: 1043px){
