@@ -10,9 +10,25 @@ body{
 	color:#C09A77;
 }
 
+header,footer,nav{
+	font-family: 'Quattrocento', serif;
+	text-align: center;
+}
+
 nav{
 	padding: .75%;
 	background-color: #cc0052;
+}
+
+nav a{
+	font-size: 1.25em;
+	margin-left: 6%;
+	margin-right: 6%;
+	color: white;
+}
+
+a:hover {
+	color: #C09A77;
 }
 
 a, footer{
@@ -20,23 +36,24 @@ a, footer{
 	text-decoration: none;
 }
 
-#mobile{
-	display: none;
-}
-
 #logo, footer{
 	padding: 2em;
 	margin: 1em;
 }
 
-header,footer,nav{
-	font-family: 'Quattrocento', serif;
-	text-align: center;
+#logo p{
+	font-style: italic;
 }
 
-.verticalcenter{
-opacity: 0;
-font-size: 5em;
+#mobile{
+	display: none;
+}
+
+section{
+	background: url("http://confectionsofacottonpickinqueen.com/wp-content/uploads/2014/06/Dollarphotoclub_540377071.jpg");
+	background-size: cover;
+	padding-bottom: 10%; 
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 article{
@@ -63,31 +80,14 @@ h3{
 	font-weight: normal;
 }
 
+
 ul{
 	list-style: none;
 }
 
-section{
-	background: url("http://confectionsofacottonpickinqueen.com/wp-content/uploads/2014/06/Dollarphotoclub_540377071.jpg");
-	background-size: cover;
-	height: 50em;
-	font-family: 'Josefin Sans', sans-serif;
-}
-
-
-nav a{
-	font-size: 1.25em;
-	margin-left: 6%;
-	margin-right: 6%;
-	color: white;
-}
-
-#slogan{
-	font-style: italic;
-}
-
-a:hover {
-	color: #C09A77;
+#verticalcenter{
+opacity: 0;
+font-size: 5em;
 }
 
 @media screen and (max-width: 768px){
@@ -98,29 +98,32 @@ a:hover {
 	padding: 2%;
 	font-weight: bold;
 	}
+
 	nav a:hover{
 	background-color: #C09A77;
 	color: white;
 	}
-	article{
-		display:none;
-	}
-	#June,aside{
-		display: block;
-	}
-	section{
-	background: url("http://confectionsofacottonpickinqueen.com/wp-content/uploads/2014/06/Dollarphotoclub_540377071.jpg") no-repeat center top;
-	height: 75em;
-	}
-	#verticalcenter{
-		font-size:3em;
-	}
+
 	#mobile{
 		display: block;
 	}
 	#desktop{
 		display: none;
 	}
+
+	section{
+	background: url("http://confectionsofacottonpickinqueen.com/wp-content/uploads/2014/06/Dollarphotoclub_540377071.jpg") no-repeat center top;
+	padding-top: 10%;
+	}
+
+	article{
+		display:none;
+	}
+
+	#June,aside{
+		display: block;
+	}
+
 }
 @media screen and (min-width: 769px) and (max-width: 1043px){
 	nav a {

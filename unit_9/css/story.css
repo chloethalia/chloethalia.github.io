@@ -10,53 +10,15 @@ body{
 	color:#C09A77;
 }
 
-nav{
-	padding: .75%;
-	background-color: #cc0052;
-}
-
-a, footer{
-	color: #cc0052;
-	text-decoration: none;
-}
-
-#mobile{
-	display: none;
-}
-
-#logo, footer{
-	padding: 2em;
-	margin: 1em;
-}
-
 header,footer,nav{
 	font-family: 'Quattrocento', serif;
 	text-align: center;
 }
 
-h3{
-	font-weight: normal;
+nav{
+	padding: .75%;
+	background-color: #cc0052;
 }
-
-article{
-	font-size: 1.75em;
-	padding: 5%;
-	width: 70%; 
-	background-color: white;
-	text-align: center;
-	background: rgba(255, 255, 255, 0.8);
-	margin:auto;
-	line-height: 145%;
-}
-
-
-section{
-	background: url("http://confectionsofacottonpickinqueen.com/wp-content/uploads/2014/06/Dollarphotoclub_540377071.jpg");
-	background-size: cover;
-	padding: 10% 0;
-	font-family: 'Josefin Sans', sans-serif;
-}
-
 
 nav a{
 	font-size: 1.25em;
@@ -67,6 +29,47 @@ nav a{
 
 a:hover {
 	color: #C09A77;
+}
+
+
+a, footer{
+	color: #cc0052;
+	text-decoration: none;
+}
+
+#logo, footer{
+	padding: 2em;
+	margin: 1em;
+}
+
+#logo p{
+	font-style: italic;
+}
+
+#mobile{
+	display: none;
+}
+
+section{
+	background: url("http://confectionsofacottonpickinqueen.com/wp-content/uploads/2014/06/Dollarphotoclub_540377071.jpg");
+	background-size: cover;
+	padding: 10% 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+article{
+	font-size: 2em;
+	padding: 5%;
+	width: 70%; 
+	background-color: white;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.8);
+	margin:auto;
+	line-height: 170%;
+}
+
+h3{
+	font-weight: normal;
 }
 
 @media screen and (max-width: 768px){
@@ -81,13 +84,14 @@ a:hover {
 	background-color: #C09A77;
 	color: white;
 	}
-	section{
-	background: url("http://confectionsofacottonpickinqueen.com/wp-content/uploads/2014/06/Dollarphotoclub_540377071.jpg") no-repeat center top;
-	}
 	#mobile{
 		display: block;
 	}
 	#desktop{
 		display: none;
+	}
+
+	section{
+	background: url("http://confectionsofacottonpickinqueen.com/wp-content/uploads/2014/06/Dollarphotoclub_540377071.jpg") no-repeat center top;
 	}
 }

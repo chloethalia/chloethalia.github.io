@@ -10,9 +10,25 @@ body{
 	color:#C09A77;
 }
 
+header,footer,nav{
+	font-family: 'Quattrocento', serif;
+	text-align: center;
+}
+
 nav{
 	padding: .75%;
 	background-color: #cc0052;
+}
+
+nav a{
+	font-size: 1.25em;
+	margin-left: 6%;
+	margin-right: 6%;
+	color: white;
+}
+
+a:hover {
+	color: #C09A77;
 }
 
 a, footer{
@@ -20,23 +36,21 @@ a, footer{
 	text-decoration: none;
 }
 
-#mobile{
-	display: none;
-}
-
 #logo, footer{
 	padding: 2em;
 	margin: 1em;
 }
 
-header,footer,nav{
-	font-family: 'Quattrocento', serif;
-	text-align: center;
+#logo p{
+	font-style: italic;
 }
 
+#mobile{
+	display: none;
+}
 
 section{
-	background: url("http://confectionsofacottonpickinqueen.com/wp-content/uploads/2014/06/Dollarphotoclub_540377071.jpg");
+	background: url("http://confectionsofacottonpickinqueen.com/wp-content/uploads/2014/06/Dollarphotoclub_540377071.jpg") top ;
 	background-size: cover;
 	font-family: 'Josefin Sans', sans-serif;
 }
@@ -50,16 +64,9 @@ article{
 	margin:auto;
 }
 
-nav a{
-	font-size: 1.25em;
-	margin-left: 6%;
-	margin-right: 6%;
-	color: white;
-}
-
-
-a:hover {
-	color: #C09A77;
+img{
+	width: 300px;
+	height: 224px;
 }
 
 @media screen and (max-width: 768px){
