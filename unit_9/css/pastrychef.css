@@ -41,7 +41,7 @@ article{
 	padding: 4%;
 	width: 75%; 
 	background-color: white;
-	opacity: .8;
+	background: rgba(255, 255, 255, 0.8);
 	margin:auto;
 	line-height: 175%;
 }
