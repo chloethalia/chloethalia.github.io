@@ -1,4 +1,24 @@
 body{
-	color: white;
- 	background-color: (66,124,144);
+	padding: 30px;
+	margin: 50px;
  }
+ header{
+	text-align: center;
+	color: white;
+	background-color: (66,124,144);
+}
+nav{
+	background-color: (247,245,231);
+}
+section{
+	background-color: (255,255,255);
+}
+footer{
+	background-color: (34,14,16);
+}
+#title{
+	font-weight: bold;
+}
+#slogan{
+	font-style: italic;
+}
